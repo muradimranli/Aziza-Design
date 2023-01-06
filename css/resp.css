@@ -1,0 +1,289 @@
+@media screen and (max-width: 990.99px) {
+    header #myMenu .navbar-nav {
+        width: 60%;
+        height: 100%;
+        background-color: #323232;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        overflow-y: scroll;
+        justify-content: center;
+    }
+
+    header #myMenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .7);
+        z-index: 9999;
+        overflow-y: hidden;
+    }
+
+    header .section-top #myMenu .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        padding: 20px !important;
+        line-height: 18px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    header .navbar-logo {
+        margin-right: 0 !important;
+    }
+
+    header .section-top #myMenu .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title {
+        font-size: 40px;
+    }
+
+    #advantages {
+        position: static;
+        padding: 50px 0 0 0;
+    }
+
+    .advantage-row .advantage-box {
+        width: calc(50% - 18px);
+    }
+
+    #services {
+        margin-top: 0;
+    }
+
+    #about .about-box {
+        padding: 70px 30px;
+    }
+
+    #about .about-box .img-wrap img {
+        height: 400px;
+    }
+
+    .ref-box {
+        width: calc(21% - 20px) !important;
+    }
+
+    #call-to-action h3 {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    footer .section-top .social-media {
+        margin: 30px 0;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    header #myMenu .navbar-nav {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1199.99px) {
+    header .section-top .right-nav .change-mood-wrap .mood-info {
+        display: none;
+    }
+
+    header .section-top .right-nav .change-mood-wrap {
+        margin-right: 8px;
+    }
+
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title,
+    main #wowslider-container1 .ws_images li .slide-title-wrap p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    #call-to-action h3 {
+        font-size: 34px;
+    }
+
+    #call-to-action .buttons .action-btn span {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .ws_swipe_left ul li img {
+        margin-left: 0 !important;
+        width: 100% !important;
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    header .section-bottom #myMenu1 .navbar-nav .nav-item .nav-link {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+    header .section-bottom .right-nav .order-btn {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+
+    header .section-bottom .right-nav .order-btn img {
+        width: 20px;
+    }
+
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title {
+        font-size: 34px;
+        line-height: 32px;
+    }
+
+    main #wowslider-container1 a.ws_next,
+    main #wowslider-container1 a.ws_prev {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    #about .about-box {
+        display: block;
+        padding: 40px 30px 170px;
+    }
+
+    #about .about-box .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    #about .about-box .img-wrap {
+        text-align: right;
+        bottom: 0;
+    }
+
+    #about .about-box .img-wrap img {
+        height: 300px;
+    }
+
+    .ref-box {
+        width: calc(28% - 20px) !important;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+    header #myMenu .navbar-nav {
+        width: 100%;
+    }
+
+    header .section-top #myMenu .navbar-nav .nav-item .nav-link {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+    header .section-bottom .right-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    main .ws_controls {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        z-index: 10;
+    }
+
+    #wowslider-container1 a.ws_next,
+    #wowslider-container1 a.ws_prev {
+        position: static;
+        margin: 0 10px;
+    }
+
+    #wowslider-container1 a.ws_prev {
+        left: -60px !important;
+    }
+
+    #wowslider-container1 a.ws_next {
+        right: -60px !important;
+    }
+
+    .ref-box {
+        width: calc(38% - 20px) !important;
+    }
+
+    #call-to-action {
+        padding: 60px 0;
+    }
+
+    #call-to-action .buttons .action-btn {
+        max-width: 100%;
+    }
+
+    #call-to-action .buttons .action-btn:first-child {
+        margin: 0 0 15px;
+    }
+
+    #call-to-action .buttons .action-btn:last-child {
+        margin: 0;
+    }
+
+    #call-to-action .buttons .action-btn span {
+        font-size: 18px;
+    }
+
+    #call-to-action h3 {
+        font-size: 27px;
+    }
+
+    footer .section-top {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .advantage-row .advantage-box {
+        width: calc(100% - 18px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    main #wowslider-container1 .ws_images li .slide-title-wrap .slide-title,
+    .title {
+        font-size: 28px;
+    }
+
+    #about .about-box {
+        padding: 20px 30px 74px;
+    }
+
+    #about .about-box .about-text p {
+        margin-bottom: 30px;
+    }
+
+    #about .about-box .img-wrap img {
+        height: 160px;
+    }
+
+    #slogan .slogan-text .more-btn {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ref-box {
+        width: calc(48% - 20px) !important;
+    }
+    #wowslider-container1 .ws_controls, #wowslider-container1 .ws_bullets, #wowslider-container1 .ws_thumbs{
+        display: block !important;
+    }
+}

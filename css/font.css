@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "averta-regular";
+    src: url(/fonts/Averta-Regular.woff2);
+}
+@font-face {
+    font-family: "averta-bold";
+    src: url(/fonts/Averta-Bold.woff2);
+}
+@font-face {
+    font-family: "averta-semibold";
+    src: url(/fonts/Averta-Semibold.woff2);
+}
+@font-face {
+    font-family: "averta-light";
+    src: url(/fonts/Averta-Light.woff2);
+}
